@@ -1,12 +1,3 @@
 language: go
-
 sudo: required
-
-services:
-  - docker
-
-go:
-  - 1.8
-
-script:
-  - echo hello
+script: true
