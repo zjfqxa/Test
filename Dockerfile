@@ -1,3 +1,3 @@
-FROM cargo.caicloudprivatetest.com/caicloud/busybox
+FROM busybox
 
 COPY README.md /README.md
