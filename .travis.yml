@@ -4,4 +4,8 @@ sudo: required
 
 go_import_path: github.com/zjfqxa/Test
 
-script: true
+addons:
+  sonarcloud:
+    organization: "zhujian7-github" # the key of the org you chose at step #3
+script: 
+  - sonar-scanner
