@@ -1,4 +1,4 @@
-FROM golang:1.9.5-alpine3.7
+FROM insight.caicloudprivatetest.com/release/golang:1.10.1-alpine3.7
 COPY app.go .
 RUN CGO_ENABLED=0 GOOS=linux go build -i -v -o app .
 
