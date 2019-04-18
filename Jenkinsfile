@@ -5,7 +5,10 @@ pipeline {
       parallel {
         stage('Test') {
           steps {
-            sh 'echo test1'
+            sh '''echo test1
+ls -la
+pwd
+echo --------'''
             echo 'test print message'
           }
         }
