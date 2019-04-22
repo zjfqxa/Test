@@ -1,1 +1,1 @@
-FROM insight.caicloudprivatetest.com/library/alpine:3.7
+FROM test.caicloudprivatetest.com/library/alpine:3.7
