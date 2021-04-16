@@ -1,0 +1,2 @@
+FROM v-cr.byted.org/cp-test/test3
+ADD /workspace/test-cmd /test-cmd
